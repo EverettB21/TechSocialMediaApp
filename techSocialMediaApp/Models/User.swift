@@ -17,3 +17,18 @@ struct User: Decodable, Encodable {
     
     static var current: User?
 }
+
+struct UserProfile: Codable {
+    var firstName: String
+    var lastName: String
+    var userName: String
+    var userUUID: UUID
+    var bio: String?
+    var techInterests: String?
+    var posts: [Post]
+}
+
+struct UpdateLikesData: Codable {
+    var userSecret: UUID
+    var postid: Int
+}

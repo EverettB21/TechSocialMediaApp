@@ -22,9 +22,9 @@ class ViewController: UIViewController {
 //        Uncomment the three lines below and enter your credentials to
 //        automatically sign in everytime you launch the app.
         
-//        emailTextField.text = ""
-//        passwordTextField.text = ""
-//        signInButtonTapped([])
+        emailTextField.text = "brothers.everett@yahoo.com"
+        passwordTextField.text = "e39735ec-8daa-4e9d-be35-4e7ff28b17c3"
+        signInButtonTapped([])
         #endif
     }
 
